@@ -18,6 +18,6 @@ object luisa {
 
 object juan {
     method leGusta(cosa){
-        return cosa.color().esFuerte()||1200<cosa.peso()<1800
+        return !cosa.color().esFuerte()||1200<cosa.peso()<1800
     }
 }
